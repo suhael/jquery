@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.column {
+    width: 700px;
+    float: left;
+    border: 1px solid lightgrey;
+}
+
+th,td
+{
+    margin: 0;
+    text-align: center;
+    border-collapse: collapse;
+    outline: 1px solid #e3e3e3;
+}
+
+td
+{
+    padding: 5px 10px;
+}
+
+th
+{
+    background: #666;
+    color: white;
+    padding: 5px 10px;
+}
+
+.card {
+    border: 1px solid dimgrey;
+    width: 300px;
+    font-size: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.card__title {
+    font-weight: bold;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    background-color: yellow;
+    padding: 2px;
+}
+
+.red {
+    background-color: red;
+}
+
+.smaller {
+    width: 100px;
+}

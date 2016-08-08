@@ -2,12 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jquery</title>
+    <title></title>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="static/js/dragdrop.js"></script>
 </head>
 <body>
 
+<div class="container">
+    <div class="column">
+
+        <div class="card">
+            <div class="card__title">Original Card A</div>
+            <p>This is the text for the card. This can say anything</p>
+            <span class="button favBtn">add to favourites</span>
+        </div>
+
+        <div class="card">
+            <div class="card__title">Original Card B</div>
+            <p>This is the text for the card. This can say anything</p>
+            <span class="button favBtn">add to favourites</span>
+        </div>
+
+        <div class="card">
+            <div class="card__title">Original Card C</div>
+            <p>This is the text for the card. This can say anything</p>
+            <span class="button favBtn">add to favourites</span>
+        </div>
+
+    </div>
+    <div class="column">
+        <p>Favourites</p>
+        <div class="favourites"></div>
+    </div>
+</div>
+<br/>
+<br/>
+<table>
+    <thead>
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thrusday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>10:00 - 11:00</th>
+
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+    </tr>
+    <tr>
+        <th>11:00 - 12:00</th>
+
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+        <td class="cell"></td>
+    </tr>
+    </tbody>
+</table>
+<!--https://jqueryui.com/draggable/-->
+<!--http://www.lovelycoding.org/2013/05/create-weekly-timetable-using-css-and-html.html-->
 </body>
 </html>
